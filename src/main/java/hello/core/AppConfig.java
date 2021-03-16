@@ -19,7 +19,7 @@ public class AppConfig {
     public MemberService memberService(){
         return new MemberServiceImpl(memberRepository());
     }
-    @Bean
+    @Bean//333
     public MemberRepository memberRepository() {
         return new MemoryMemberRepository();
     }
