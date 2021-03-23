@@ -11,7 +11,7 @@ import javax.servlet.http.HttpServletRequest;
 
 @Controller
 @RequiredArgsConstructor
-public class LogDemoController {
+public class LogDemoController {//git실험
     private final LogDemoService logDemoService;
     private final ObjectProvider<MyLogger> myLoggerProvider;
 

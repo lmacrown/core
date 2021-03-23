@@ -1,5 +1,6 @@
 package hello.core.lifecycle;
 
+import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.DisposableBean;
 import org.springframework.beans.factory.InitializingBean;
 
@@ -42,5 +43,6 @@ public class NetworkClient  {
         System.out.println("NetworkClient.close");
         disconnect();
     }
+
 }
 
